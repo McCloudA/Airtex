@@ -122,15 +122,35 @@ div[class^="nav"] > p {
 
 .bottom-sec {
   display: inline-block;
-  margin: 1em;
+  margin: 2%;
   width: 28%;
   height: 90%;
-  background-color: #4B352B;
-  border-radius: 10px;
-  border-top: 3px solid #684B3B;
+  background: #4b352b; /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(75, 53, 43, 1) 42%, rgba(75, 53, 43, 0.8) 76%, transparent 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(42%,rgba(75, 53, 43, 1)), color-stop(76%,rgba(75, 53, 43, 0.8)), color-stop(100%,transparent)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(75, 53, 43, 1) 42%,rgba(75, 53, 43, 0.8) 76%,transparent 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(75, 53, 43, 1) 42%,rgba(75, 53, 43, 0.8) 76%,transparent 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(75, 53, 43, 1) 42%,rgba(75, 53, 43, 0.8) 76%,transparent 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(75, 53, 43, 1) 42%,rgba(75, 53, 43, 0.8) 76%,transparent 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b352b', endColorstr='transparent',GradientType=0 ); /* IE6-9 */
   border-left: 1px solid #684B3B;
   border-right: 1px solid #684B3B;
+  -moz-border-radius-topleft: 10px:
+  -moz-border-radius-topright: 10px;
+  border-radius-topleft: 10px:
+  border-radius-topright: 10px;
+  border-top: 3px solid #684B3B;
   color: #C1B18A;
+  vertical-align: top;
+  padding-bottom: 30px;
+}
+
+.bottom-sec-btn {
+  display: inline-block;
+  margin: 2%;
+  width: 28%;
+  height: 90%;
+  vertical-align: top;
 }
 
 hr {
@@ -149,8 +169,40 @@ button {
   padding: 12px 29px;
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom,  from(transparent), color-stop(25%, transparent), to(rgba(255, 255, 255, 0.15)));
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
+.icon {
+  border: 1px solid #9A755F;
+  float: left;
+  margin-right: 4px;
+}
+
+span.title {
+  font-weight: 700;
+}
+
+div.bottom-sec > p {
+  padding: 0;
+  margin: 0;
+}
+
+div.bottom-sec > p.spacer {
+  margin-top: 20px;
+}
+
+.btm-sec-left {
+  margin-left: 3%;
+}
+
+.btm-sec-right {
+  margin-right: 3%;
+}
+
+.mini-container {
+  width: 92%;
+  margin: 0 auto;
+}
 
 @media only screen and (max-width : 992px) {
   .single-line-nav {
