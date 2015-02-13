@@ -8,12 +8,13 @@ body {
   linear-gradient(90deg, transparent 90%, rgba(255,255,255,.17) 10%),
   linear-gradient(90deg, transparent 90%, rgba(255,255,255,.19) 10%);
   background-size: 13px, 29px, 37px, 53px;
-  -webkit-box-shadow: 4px -65px 150px 1px #4E372B inset;
-  box-shadow: 4px -230px 170px 1px #4E372B inset;
 }
 
 #wrap {
   min-height: 100%;
+  -webkit-box-shadow: inset 10px -270px 90px 0px rgba(78, 55, 55, .8);
+  -moz-box-shadow:    inset 10px -270px 90px 0px rgba(78, 55, 55, .8);
+  box-shadow:         inset 10px -270px 90px 0px rgba(78, 55, 55, .8);
 }
 
 #main {
@@ -82,10 +83,10 @@ h2 {
 }
 
 .nav {
-  background: -webkit-linear-gradient(#E6C88C, #CEAE65); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#E6C88C, #CEAE65); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#E6C88C, #CEAE65); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#E6C88C, #CEAE65); /* Standard syntax (must be last) */
+  background: -webkit-linear-gradient(#E6C88C, #CEAE65);
+  background: -o-linear-gradient(#E6C88C, #CEAE65);
+  background: -moz-linear-gradient(#E6C88C, #CEAE65);
+  background: linear-gradient(#E6C88C, #CEAE65);
 }
 
 .nav-padding {
@@ -108,28 +109,47 @@ div[class^="nav"] > p {
   border-radius: 5px;
   background:
   radial-gradient(circle at 50% 150%, rgba(223,190,130,1) 0, rgba(223,190,130,1) 65%, rgba(126,60,8,1) 100%);
-
 }
 
-
-
-.golden-img-background {
-  background: linear-gradient(right top, #901A1C 0%, #ffffff 100%);
+.bottom-sec-title {
+  border-top: 1px dashed #4A3328;
+  border-left: 1px solid #4A3328;
+  border-right: 1px solid #4A3328;
+  border-bottom: 1px dashed #4A3328;
+  background-color: #26140F;
+  color: #C0AE8A;
 }
 
+.bottom-sec {
+  display: inline-block;
+  margin: 1em;
+  width: 28%;
+  height: 90%;
+  background-color: #4B352B;
+  border-radius: 10px;
+  border-top: 3px solid #684B3B;
+  border-left: 1px solid #684B3B;
+  border-right: 1px solid #684B3B;
+  color: #C1B18A;
+}
 
+hr {
+  border-color: #684B3B;
+  width: 90%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+button {
+  background: -webkit-linear-gradient(#CEAE65, #E6C88C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CEAE65, #E6C88C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CEAE65, #E6C88C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CEAE65, #E6C88C); /* Standard syntax (must be last) */
+  color: #89460F;
+  border-radius: 15px;
+  border: 1px solid #E0C180;
+  padding: 12px 29px;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom,  from(transparent), color-stop(25%, transparent), to(rgba(255, 255, 255, 0.15)));
+  margin-bottom: 30px;
+}
 
 
 @media only screen and (max-width : 992px) {
