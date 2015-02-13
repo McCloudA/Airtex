@@ -145,6 +145,27 @@ div[class^="nav"] > p {
   padding-bottom: 30px;
 }
 
+.bottom-sec-small {
+  background: #4b352b; /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(75, 53, 43, 1) 42%, rgba(75, 53, 43, 0.8) 76%, transparent 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(42%,rgba(75, 53, 43, 1)), color-stop(76%,rgba(75, 53, 43, 0.8)), color-stop(100%,transparent)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(75, 53, 43, 1) 42%,rgba(75, 53, 43, 0.8) 76%,transparent 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(75, 53, 43, 1) 42%,rgba(75, 53, 43, 0.8) 76%,transparent 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(75, 53, 43, 1) 42%,rgba(75, 53, 43, 0.8) 76%,transparent 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(75, 53, 43, 1) 42%,rgba(75, 53, 43, 0.8) 76%,transparent 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b352b', endColorstr='transparent',GradientType=0 ); /* IE6-9 */
+  border-left: 1px solid #684B3B;
+  border-right: 1px solid #684B3B;
+  -moz-border-radius-topleft: 10px:
+  -moz-border-radius-topright: 10px;
+  border-radius-topleft: 10px:
+  border-radius-topright: 10px;
+  border-top: 3px solid #684B3B;
+  color: #C1B18A;
+  vertical-align: top;
+  padding-bottom: 30px;
+}
+
 .bottom-sec-btn {
   display: inline-block;
   margin: 2%;
@@ -202,6 +223,67 @@ div.bottom-sec > p.spacer {
 .mini-container {
   width: 92%;
   margin: 0 auto;
+}
+
+.btn-row-btm {
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+  bottom: 80px;
+  margin-bottom: 40px;
+}
+
+.btn-col {
+  margin-top: 0;
+  padding: 0;
+  height: 0;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.navbar-inverse {
+  background-color: #E7C98B; border-bottom: 1px #352821 dashed;
+}
+
+.top-row {
+  height: 100px;
+}
+
+.cart-container {
+  padding-top: 25px;
+}
+
+.nv-pad-lft {
+  margin-left: 10px;
+}
+
+.nv-pad-rt {
+  margin-right: 10px;
+}
+
+.footer-text {
+  color: black;
+  font-family: Courier New;
+}
+
+.info-line {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.front-img {
+  max-width:100%;
+  max-height:100%;
+  display:block;
+  margin:auto;
+  padding: 20px;
+}
+
+.top-right-shadow {
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width : 992px) {
