@@ -72,7 +72,7 @@ body {
   background-color: #FAEFD9;
 }
 
-h3 {
+h2 {
   color: #73554D;
 }
 
@@ -102,16 +102,20 @@ div[class^="nav"] > p {
 }
 
 .jumbotron > div {
-  background-color: red;
   width: 98%;
   min-height: 150px;
   margin: 0 auto;
   border-radius: 5px;
-  box-shadow: 7px 12px 55px 5px pink inset;
+  background:
+  radial-gradient(circle at 50% 150%, rgba(223,190,130,1) 0, rgba(223,190,130,1) 65%, rgba(126,60,8,1) 100%);
+
 }
 
 
 
+.golden-img-background {
+  background: linear-gradient(right top, #901A1C 0%, #ffffff 100%);
+}
 
 
 
