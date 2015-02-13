@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 110px; /* this needs to be bigger than footer height*/
+  padding-top: 30px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -110px; /* negative value of footer height */
+  height: 110px;
+  clear:both;
+  padding-top:20px;
+  background-color: #E7C98B;
+  color: #7F2400;
+  text-align: center;
+  border-top: 1px black dashed;
+  font-family: Arial;
+}
+
+.header {
+  position: relative;
+  margin-bottom: -30px; /* negative value of footer height */
+  height: 30px;
+  clear:both;
+  padding-top:20px;
+  background-color: #E7C98B;
+  border-bottom: 1px black dashed;
+}
